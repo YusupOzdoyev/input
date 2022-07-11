@@ -1,12 +1,13 @@
 const btn = document.getElementById('btn');
+let inputName = document.getElementById('name');
+let inputSername = document.getElementById('sername');
+let inputYear = document.getElementById('year');
+let pName = document.getElementById('p_name');
+let pSername = document.getElementById('p_sername');
+let pYear = document.getElementById('p_year');
 
 btn.onclick = () => {
-    let inputName = document.getElementById('name').value;
-    document.getElementById('p_name').innerHTML = inputName;
-
-    let inputSername = document.getElementById('sername').value;
-    document.getElementById('p_sername').innerHTML = inputSername;
-
-    let inputYear = document.getElementById('year').value;
-    document.getElementById('p_year').innerHTML = inputYear;
+    pName.innerHTML = inputName.value;
+    pSername.innerHTML = inputSername.value;
+    pYear.innerHTML = inputYear.value;
 }
