@@ -1,3 +1,5 @@
+// input project
+
 const btn = document.getElementById('btn');
 let inputName = document.getElementById('name');
 let inputSername = document.getElementById('sername');
